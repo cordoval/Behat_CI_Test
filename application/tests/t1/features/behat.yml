@@ -1,0 +1,5 @@
+default:
+  context:
+    parameters:
+      start_url: http://blueskies.ucdavis.edu/
+    class:  Main

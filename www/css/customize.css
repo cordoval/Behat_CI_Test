@@ -1,0 +1,159 @@
+/* Client CSS customizations*/
+/* edits */
+/* everything in this file either overwrites or adds to the default CSS */
+
+body {font-family: Helvetica, Verdana, sans-serif;}
+
+#page {margin-top: 5px;} /*adds top white space*/
+#header {height: 70px;} /*adjust for different size header images */
+
+/*placement of search box in header (inactive?)*/
+div#toplinks div.moduletable {margin-right: 200px;}
+div.moduletablesearchbox {margin-top: 20px;}
+
+span.clear {background-color: #eeeeec;}
+
+/* overrides default appearance of template */
+.module-blue h3, .module h3, .module_menu h3 {background: none; border-bottom: 0;}
+
+
+div.modulesearchbox {float: right; padding-top: 10px;}
+div.searchsearchbox { padding-right: 15px;}
+
+/* styling for home screens */
+div#homescreensnav {text-align: center; margin: auto;}
+div#homescreensnav img {padding-top: 10px; margin-bottom: -10px;}
+a.here {text-decoration: none; font-size: 150%;}
+img#next {padding-left: 7px;}
+
+/* the "splitmenu" is just below the horiz menu bar. It's usually empty. */
+#splitmenu {border: 0;}
+#splitmenu div.module {border: 0;}
+#splitmenu div.content {height: 60px;}
+#splitmenu h2 {font-size: 3em; padding: 15px;}
+
+
+/* font styling for main content areas */
+#center p {font-size: 125%; line-height: 1.4em;}
+#center ul {font-size: 125%;}
+#center ol {font-size: 125%;}
+#center ul ul {font-size: 100%;}
+#center h3 {font-size: 150%;}
+a:link, a:visited {
+	color:blue;
+	text-decoration:underline;
+	}
+a:visited {color: purple;}
+
+h1.title {margin-top: -15px; margin-left: 15px;} /*styling of header */
+
+#page {border: 1px solid black;}
+#toplinks div.blue {background-color: white !important; background-image: none; color: black;}
+#toplinks div.blue li a{ color: blue; text-decoration: underline;}
+
+#toplinks li a:hover{
+background-color:#bdccdb; 
+color:blue;
+text-decoration: none;
+}
+
+
+#menu ul{
+padding-left: 0;
+margin: 0;
+background-color: #859ab0;
+color: White;
+float: left;
+width: 100%;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+
+font-weight:600;
+border-top: 1px solid #305881;
+border-bottom: 1px solid #305881;
+}
+
+#menu ul li { display: inline; }
+
+#menu ul li a{
+padding: 0 1.75em 0 1.75em;
+background-color: #859ab0;
+color: White;
+text-decoration: none;
+float: left;
+border-right: 1px solid silver;
+}
+
+#menu ul li a:hover{
+background-color: #6288ae;
+color: #fff;
+}
+
+#menu .blue {
+	background-color:#6288ae; background-image: none !important; height: 10px;
+	}
+#menu .blue a {
+	border-right:1px solid silver;
+	}
+
+
+#center {background-color: #eeeeec;}
+#left {width: 250px;}
+#right {width: 210px;}
+.threecolumns #center {
+	margin-left:260px;
+	
+	}
+.threecolumns #left {
+	margin:10px 0 0 -740px;
+	}
+.threecolumns #right {margin-top: 10px;}
+#contentholder {background-color:#eeeeec;  border-top: 1px solid black; border-bottom: 1px solid black; padding-top: 20px;}
+#center div.darkbg {background-color:#eeeeec;}
+
+.nocolumns #center div.darkbg {padding: 10px;}
+.leftcolumn #left {margin: 10px 0 0 -940px;}
+/*.leftcolumn #center div.darkbgg {margin-left: 260px;}*/
+
+.leftcolumn #center {margin: 0 0 0 280px; width: 670px;}
+div#alledia {display: none;}
+
+ul#sidemenu
+{
+margin-left: 0;
+padding-left: 0;
+list-style-type: none !important;
+font-family: Arial, Helvetica, sans-serif;
+font-size:100%;
+}
+
+#sidemenu a{
+display: block;
+padding: 3px 3px 3px 25px ;
+margin-bottom:.45em;
+background-color:#d7dde2;
+border:1px solid silver;
+background-image:url(http://www.vetmed.ucdavis.edu/vmth/images/blue_arrow_up.gif);
+background-position:left;
+background-repeat:no-repeat; 
+}
+
+#sidemenu li a{
+color:#333333;
+text-decoration: none;
+}
+
+#sidemenu li a:hover{
+background-color:#bdccdb; 
+color:#660000;
+text-decoration: none;
+}
+
+ul#sidemenu ul {padding-left: 30px;}
+
+div.modulesidemenu div.content ul li {margin-left: -30px;}
+
+div#homebox {border: 3px solid #cccccc; margin: auto; padding: 15px; width: 95%; font-size: 125%; line-height: 150%}
+
+div#bottom div.module div.content {background-color:#eeeeec; border: 0;}
+div#bottom div.module {border: 0;}
+#footer .blue {background-image: none; background-color: white; color: black;}

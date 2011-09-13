@@ -1,0 +1,111 @@
+a:focus, a:active {
+  	outline: none;
+}
+/* internal Links */
+a.simply_intern:link {
+	color:#003869;	
+	text-decoration: none;
+}
+a.simply_intern:visited {
+	text-decoration: none;
+	
+}
+a.simply_intern:hover {
+    color:#004C92;
+}
+a.simply_intern:active, a.simply_intern:focus {
+    color:#004C92;
+}
+/* external Links */
+a.simply_extern:link {
+	color:#003869;
+	text-decoration: none;
+}
+a.simply_extern:visited {
+	text-decoration: none;
+}
+a.simply_extern:hover {
+    color:#004C92;
+}
+a.simply_extern:active, a.simply_extern:focus {
+    color:#004C92;
+}
+
+/* glossary */
+a.simply_gloss:link {
+	color:#003869;
+	cursor:help;
+	text-decoration: none;
+}
+a.simply_gloss:hover {
+	color:#004C92;
+	cursor:help;
+} 
+a.simply_gloss:active, a.simply_gloss:focus {
+    color: #fff;
+	cursor:help;
+}
+/* jTip */
+#JT_arrow_left{
+	background-image: url(arrow_left.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	position: absolute;
+	z-index:111;
+	left:-8px;
+	height:23px;
+	width:8px;
+    top:58px;
+}
+#JT_arrow_right{
+	background-image: url(arrow_right.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	position: absolute;
+	z-index:111;
+	margin-left:-1px;
+	height:23px;
+	width:8px;
+    top:58px;
+}
+#JT {
+	position: absolute;
+	z-index:110;
+	border-top: 1px solid #eaeaea;
+	border-left: 1px solid #eaeaea;
+  	border-right: 1px solid #eaeaea;	
+	background: white url(shadow.png) repeat-x bottom left;
+}
+#JT h3{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-size:1.1em;
+	margin-left:10px;
+	color:#333333;
+}
+#JT_copy{
+	padding:10px 10px 10px 10px;
+	color:#333333;
+}
+#JT_close_butt_left{
+	float:right;
+	width:20px;
+	height:20px;
+	margin:10px;
+	cursor:pointer;
+	background-image:url(close.gif);
+	background-repeat:no-repeat;
+}
+
+#JT_close_butt_right{
+	width:20px;
+	height:20px;
+	margin:10px;
+	cursor:pointer;
+	background-image:url(close.gif);
+	background-repeat:no-repeat;
+}
+#JT_copy p{
+	margin:3px 0;
+}
+
