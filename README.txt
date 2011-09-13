@@ -18,7 +18,9 @@ Now the interesting thing is that the object is instantiated and the
 session method can be accessed before Behat begins running/parsing
 through the story. I can error_log session variables, etc. but once it
 starts to print the story the object somehow gets stomped on and it
-dies with the above error message.
+dies with the above error message. And if you don't try to access
+the session object at all, the test succeeds. The MVC controller
+returns a data array that is used to test for success or failure.
 
 To summarize, my FeatureContext constructor instantiates my test
 controller, i.e:
