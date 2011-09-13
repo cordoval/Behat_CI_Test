@@ -1,21 +1,21 @@
 SYNOPSIS
-  To run the Behat test from the directory containing this README.txt
-	file:
 
-	% behat ./application/tests/t1/features/1.login_successful.feature
+To run the Behat test from the directory containing this README.txt file:
 
-	The CodeIgniter glue files are:
+  % behat ./application/tests/t1/features/1.login_successful.feature
 
-	./application/tests/config/ci-config.php
-	./application/config/settings.php
+The CodeIgniter glue files are:
 
-	The test class that extends the CodeIgniter controller is:
+  ./application/tests/config/ci-config.php
+  ./application/config/settings.php
 
-	./application/config/classes.php
+The test class that extends the CodeIgniter controller is:
 
-	And the controller that it extends is:
+  ./application/config/classes.php
 
-	./application/controllers/main.php
+And the controller that it extends is:
+
+  ./application/controllers/main.php
 
 
 DESCRIPTION
