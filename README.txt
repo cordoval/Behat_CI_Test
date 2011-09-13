@@ -1,3 +1,25 @@
+SYNOPSIS
+  To run the Behat test from the directory containing this README.txt
+	file:
+
+	% behat ./application/tests/t1/features/1.login_successful.feature
+
+	The CodeIgniter glue files are:
+
+	./application/tests/config/ci-config.php
+	./application/config/settings.php
+
+	The test class that extends the CodeIgniter controller is:
+
+	./application/config/classes.php
+
+	And the controller that it extends is:
+
+	./application/controllers/main.php
+
+
+DESCRIPTION
+
 Folks,
 
 I have been using Behat version 1 to succesfully instantiate and extend

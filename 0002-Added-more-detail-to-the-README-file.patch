@@ -1,0 +1,27 @@
+From 561bb9ee73b0569e06e992ab43c12816faf64b81 Mon Sep 17 00:00:00 2001
+From: Daryl Williams <daryl@ucdavis.edu>
+Date: Tue, 13 Sep 2011 09:00:10 -0700
+Subject: [PATCH 2/2] Added more detail to the README file.
+
+---
+ README.txt |    4 +++-
+ 1 files changed, 3 insertions(+), 1 deletions(-)
+
+diff --git a/README.txt b/README.txt
+index ac00ba7..c00161b 100644
+--- a/README.txt
++++ b/README.txt
+@@ -18,7 +18,9 @@ Now the interesting thing is that the object is instantiated and the
+ session method can be accessed before Behat begins running/parsing
+ through the story. I can error_log session variables, etc. but once it
+ starts to print the story the object somehow gets stomped on and it
+-dies with the above error message.
++dies with the above error message. And if you don't try to access
++the session object at all, the test succeeds. The MVC controller
++returns a data array that is used to test for success or failure.
+ 
+ To summarize, my FeatureContext constructor instantiates my test
+ controller, i.e:
+-- 
+1.7.4.1
+
